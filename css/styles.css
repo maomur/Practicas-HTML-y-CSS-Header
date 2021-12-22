@@ -1,0 +1,43 @@
+
+
+.main-header{
+    background-color: #3E82F7;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 0;
+    
+}
+
+.main__contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.main__contact___item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    min-width: 200px;
+}
+
+.main__contact___item i{
+    color: #ffff;
+    font-size: 1.3em;
+    padding: 0 0.5em;
+}
+
+.main-social {
+    min-width: 200px;
+    text-align: center;
+}
+
+.main-social i{
+    color: #ffff;
+    font-size: 1.3em;
+    padding: 0 0.2em;
+}
