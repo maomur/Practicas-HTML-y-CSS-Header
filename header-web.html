@@ -3,40 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="autor" content="">
+    <meta name="description" content="Estructura Básica Header HTML y CSS">
+    <meta name="keywords" content="header, header html, header css">
+    <meta name="autor" content="Mauricio Murcia Spencer">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap" rel="stylesheet">
+    <!-- *** -->
+
+    <!-- Iconos Font Awesome -->
     <script src="https://kit.fontawesome.com/2a21eb2281.js" crossorigin="anonymous"></script>
+    <!-- *** -->
 
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Document</title>
+    <title>Estructura Básica Header HTML y CSS</title>
     <meta>
 </head>
 <body>
-    <header class="main-header">
+    <div class="top-header">
 
-        <div class="main__contact">
-            <div class="main__contact___item">
+        <div class="top__contact">
+            <div class="top__contact___item">
                 <i class="fas fa-mobile-alt"></i>
                 <p>+641 87 08 94</p>
-            </div>            <div class="main__contact___item">
+            </div>            
+            <div class="top__contact___item">
                 <i class="far fa-envelope"></i>
                 <p>maomur@gmail.com</p>
             </div>
-            <div class="main__contact___item">
+            <div class="top__contact___item">
                 <i class="fas fa-map-marker-alt"></i>
                 <p>Barcelona, España</p>
             </div>
         </div>
 
-        <div class="main-social">
+        <div class="top-social">
             <a href="#"><i class="fab fa-facebook"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
         </div>
-
+    </div> 
+    
+    <div class="logo-header">
+        <div class="logo-header__logo">
+            <img src="./assets/images/logo-web.webp" alt="Logotipo Web">
+        </div>
         
-    </header>   
+        <nav class="main-nav">
+            <a href="#"><p>Menú 1</p></a>
+            <a href="#"><p>Menú 2</p></a>
+            <a href="#"><p>Menú 3</p></a>
+            <a href="#"><p>Menú 4</p></a>
+        </nav>
+
+        <button class="main-call">
+            Hola
+        </button>
+    </div>
+
+    <h1>Header con HTML y CSS Básico</h1>
 </body>
 </html>

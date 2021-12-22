@@ -1,23 +1,32 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    padding: 2em;
+}
 
 
-.main-header{
+.top-header{
     background-color: #3E82F7;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 1em 0;
-    
+    padding: 1em 0;   
 }
 
-.main__contact{
+.top__contact{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
 
-.main__contact___item{
+.top__contact___item{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,19 +34,69 @@
     min-width: 200px;
 }
 
-.main__contact___item i{
+.top__contact___item i{
     color: #ffff;
     font-size: 1.3em;
     padding: 0 0.5em;
 }
 
-.main-social {
+.top-social {
     min-width: 200px;
     text-align: center;
 }
 
-.main-social i{
+.top-social i{
     color: #ffff;
     font-size: 1.3em;
     padding: 0 0.2em;
+}
+
+.top-social i:hover{
+    color: #f0d90e;
+}
+
+.logo-header{
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+}
+
+.logo-header__logo img{
+    max-width: 300px;
+    min-width: 100px;
+    text-align: center;
+}
+
+.main-nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.main-nav a{
+    padding: 0 1em;
+    text-decoration: none;
+    color: #202020;
+}
+
+.main-nav a:hover{
+    color: #f0d90e;
+}
+
+.main-call{
+    background-color: #3E82F7;
+    color: #ffff;
+    border: none;
+    padding: 1em 3em;
+}
+
+.main-call:hover{
+    background-color: #f0d90e;
+    color: #ffff;
+    border: none;
+    padding: 1em 3em;
+    cursor: pointer;
 }
