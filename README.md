@@ -11,6 +11,6 @@
 - Media Querie
 
 
-![Screen Versión Web](https://raw.githubusercontent.com/maomur/html-practicas/main/assets/images/screen-app.png)
+![Screen Versión Web](https://raw.githubusercontent.com/maomur/html-practicas/main/assets/images/screen-responsive.png)
 
 ![Screen Versión Web](https://raw.githubusercontent.com/maomur/html-practicas/main/assets/images/screen-web.png)
